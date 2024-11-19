@@ -8,7 +8,7 @@
 - openai == 1.37.0
 
 ## 2. Framework:
-![Image](https://raw.githubusercontent.com/Golden-Arc/Code_Generation_LLM/tree/main/img/llm.svg)
+![Image](https://github.com/Golden-Arc/Code_Generation_LLM/blob/main/img/llm.svg)
 
 ## 3. Module details：
 ### 3.1 Mouse Pointer Detction:
@@ -102,7 +102,7 @@ simulate_clicks(coordinates)
 ```
 - A 3D figure showing how the code generation is affected by the LLM’s parameter
 
-![Image](https://raw.githubusercontent.com/Golden-Arc/Code_Generation_LLM/tree/main/img/chart.png)
+![Image](https://github.com/Golden-Arc/Code_Generation_LLM/blob/main/img/chart.png)
 
 ## 6. Ablation Experiment:
 <style type="text/css">
