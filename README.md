@@ -8,8 +8,7 @@
 - openai == 1.37.0
 
 ## 2. Framework:
-![Image](https://github.com/Golden-Arc/LLM_wetlab_equipment_control
-/blob/main/img/llm.svg)
+![Image](https://github.com/Golden-Arc/LLM_wetlab_equipment_control/blob/main/img/llm.svg)
 
 ## 3. Module details：
 ### 3.1 Mouse Pointer Detction:
@@ -103,8 +102,7 @@ simulate_clicks(coordinates)
 ```
 - A 3D figure showing how the code generation is affected by the LLM’s parameter
 
-![Image](https://github.com/Golden-Arc/LLM_wetlab_equipment_control
-/blob/main/img/chart.png)
+![Image](https://github.com/Golden-Arc/LLM_wetlab_equipment_control/blob/main/img/chart.png)
 
 ## 6. Ablation Experiment:
 <table class="tg"><thead>
