@@ -1,4 +1,4 @@
-# Code_Generation_LLM
+# LLM-supervised automatic wet-lab equipment control
 ## 1. Requirement:
 - numpy == 1.26.4
 - sklearn == 1.5.1
@@ -8,7 +8,8 @@
 - openai == 1.37.0
 
 ## 2. Framework:
-![Image](https://github.com/Golden-Arc/Code_Generation_LLM/blob/main/img/llm.svg)
+![Image](https://github.com/Golden-Arc/LLM_wetlab_equipment_control
+/blob/main/img/llm.svg)
 
 ## 3. Module details：
 ### 3.1 Mouse Pointer Detction:
@@ -31,7 +32,7 @@
 - Aggregation criteria: All global keyframes are included in the final keyframe list. Local keyframes are also included if there is no global keyframe within 5 frames of their position.
 ### 3.5 OCR：
 - The purpose of OCR is to extract text information from all keyframes.
-- The base model is easyocr, which uses the CRAFT algorithm for detection and CRNN for recognition. The CRNN model comprises three components: feature extraction with ResNet, sequence labeling with LSTM, and decoding with CTC. This deep learning process is implemented in PyTorch.
+- The base model is [EasyOCR](https://github.com/JaidedAI/EasyOCR), which uses the CRAFT algorithm for detection and CRNN for recognition. The CRNN model comprises three components: feature extraction with ResNet, sequence labeling with LSTM, and decoding with CTC. This deep learning process is implemented in PyTorch.
 ### 3.6 Prompt Constructing:
 - In prompt construction, the aim is for the large model to understand task objectives and integrate available information to infer and generate complete, accurate control code.
 - Prerequisite Tasks: Equip the model with knowledge to comprehend information related to mouse pointer, keyframes, and the experimental platform, and align it accordingly.
@@ -102,7 +103,8 @@ simulate_clicks(coordinates)
 ```
 - A 3D figure showing how the code generation is affected by the LLM’s parameter
 
-![Image](https://github.com/Golden-Arc/Code_Generation_LLM/blob/main/img/chart.png)
+![Image](https://github.com/Golden-Arc/LLM_wetlab_equipment_control
+/blob/main/img/chart.png)
 
 ## 6. Ablation Experiment:
 <table class="tg"><thead>
